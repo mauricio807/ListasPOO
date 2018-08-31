@@ -6,16 +6,16 @@ package Lista04;
 
 /**
  *
- * @author aluno
+ * @author Luan Amor
  */
 public class DiaDosNamorados extends CartaoWeb{
     
     public DiaDosNamorados(String dest){
         this.destinatario = dest; 
     }
-    public void retornaMensagem(String Remete){
-        System.out.println("Querido(a) "+Remete+
-                "\n Espero que tenha sido o unico cartão do dia dos namorados"
-                + "\n Beijos"+this.destinatario);
+    public String retornaMensagem(String Remete){
+        return "Querido(a) "+this.destinatario+","
+               "\n Espero que tenha sido o unico cartão do dia dos namorados"+
+               "\n Beijos "+Remete;
     }
 }
