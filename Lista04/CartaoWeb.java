@@ -6,7 +6,7 @@ package Lista04;
 
 /**
  *
- * @author aluno
+ * @author Luan Amor
  */
 public abstract class CartaoWeb {
     protected String destinatario;
@@ -15,5 +15,5 @@ public abstract class CartaoWeb {
         return this.destinatario;
     }
     
-    public abstract void retornaMensagem(String Remete);
+    public abstract String retornaMensagem(String Remete);
 }
