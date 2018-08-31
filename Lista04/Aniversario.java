@@ -6,16 +6,16 @@ package Lista04;
 
 /**
  *
- * @author aluno
+ * @author Luan Amor
  */
 public class Aniversario extends CartaoWeb{
     
     public Aniversario(String dest){
         this.destinatario = dest; 
     }
-    public void retornaMensagem(String Remete){
-        System.out.println("Querido(a) "+Remete+
-                "\n Espero que tenha um feliz aniversário, muita paz e saúde"
-                + "\n Atenciosamente"+this.destinatario);
+    public String retornaMensagem(String Remete){
+        return "Querido(a) "+this.destinatario+","+
+               "\n Espero que tenha um feliz aniversário, muita paz e saúde"
+               + "\n Atenciosamente "+Remete;
     }
 }
