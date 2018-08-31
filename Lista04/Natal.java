@@ -6,16 +6,17 @@ package Lista04;
 
 /**
  *
- * @author aluno
+ * @author Luan Amor
  */
 public class Natal extends CartaoWeb{
     
     public Natal(String dest){
         this.destinatario = dest; 
     }
-    public void retornaMensagem(String Remete){
-        System.out.println("Querido(a) "+Remete+
-                "\n Feliz Natal"
-                + "\n Atenciosamente"+this.destinatario);
+    
+    public String retornaMensagem(String Remete){
+        return "Querido(a) "+this.destinatario+
+               "\n Feliz Natal" + 
+               "\n Atenciosamente "+Remete;
     }
 }
