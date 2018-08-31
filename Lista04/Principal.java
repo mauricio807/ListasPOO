@@ -6,7 +6,7 @@ package Lista04;
 import javax.swing.JOptionPane;
 /**
  *
- * @authoimport javax.swing.JOptionPane;r aluno
+ * @authoimport Luan Amor
  */
 public class Principal {
 
