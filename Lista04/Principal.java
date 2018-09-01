@@ -23,12 +23,8 @@ public class Principal {
         String nome[] = new String[3];
 
         for(int i = 0; i < c.length; i++){
-            nome[0] = JOptionPane.showInputDialog("Qual o seu nome?", "Digite aqui");
-            JOptionPane.showMessageDialog(null,c[0].retornaMensagem(nome[0]));
-            nome[1] = JOptionPane.showInputDialog("Qual o seu nome?", "Digite aqui");
-            JOptionPane.showMessageDialog(null,c[1].retornaMensagem(nome[1]));
-            nome[2] = JOptionPane.showInputDialog("Qual o seu nome?", "Digite aqui");
-            JOptionPane.showMessageDialog(null,c[2].retornaMensagem(nome[2]));
+            nome[i] = JOptionPane.showInputDialog("Qual o seu nome?", "Digite aqui");
+            JOptionPane.showMessageDialog(null,c[i].retornaMensagem(nome[i]));
         }
     }
     
